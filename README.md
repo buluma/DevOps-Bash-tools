@@ -2,7 +2,7 @@ Hari Sekhon - DevOps Bash Tools
 ===============================
 
 [![Codacy Badge](https://app.codacy.com/project/badge/Grade/1a6c31b2c95a438dbb304d01da67a38c)](https://www.codacy.com/gh/buluma/DevOps-Bash-tools/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=buluma/DevOps-Bash-tools&amp;utm_campaign=Badge_Grade)
-[![CodeFactor](https://www.codefactor.io/repository/github/harisekhon/devops-bash-tools/badge)](https://www.codefactor.io/repository/github/harisekhon/devops-bash-tools)
+[![CodeFactor](https://www.codefactor.io/repository/github/buluma/devops-bash-tools/badge)](https://www.codefactor.io/repository/github/buluma/devops-bash-tools)
 [![Code Inspector Grade](https://www.code-inspector.com/project/8840/status/svg)](https://frontend.code-inspector.com/project/8840/dashboard)
 [![Code Inspector Score](https://www.code-inspector.com/project/8840/score/svg)](https://frontend.code-inspector.com/project/8840/dashboard)
 [![GitHub stars](https://img.shields.io/github/stars/harisekhon/devops-bash-tools?logo=github)](https://github.com/harisekhon/devops-bash-tools/stargazers)
