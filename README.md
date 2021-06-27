@@ -60,7 +60,7 @@ awkward URLs more nicely replaced with shields.io
 
 [![Travis CI](https://img.shields.io/travis/buluma/devops-bash-tools/master?logo=travis&label=Travis%20CI)](https://travis-ci.org/buluma/DevOps-Bash-tools)
 [![AppVeyor](https://img.shields.io/appveyor/build/buluma/devops-bash-tools/master?logo=appveyor&label=AppVeyor)](https://ci.appveyor.com/project/buluma/devops-bash-tools/branch/master)
-[![Drone](https://img.shields.io/drone/build/buluma/DevOps-Bash-tools/master?logo=drone&label=Drone)](https://cloud.drone.io/buluma/DevOps-Bash-tools)
+[![Build Status](https://cloud.drone.io/api/badges/buluma/DevOps-Bash-tools/status.svg)](https://cloud.drone.io/buluma/DevOps-Bash-tools)
 [![CircleCI](https://circleci.com/gh/buluma/DevOps-Bash-tools.svg?style=svg)](https://circleci.com/gh/buluma/DevOps-Bash-tools)
 [![Codeship Status for HariSekhon/DevOps-Bash-tools](https://app.codeship.com/projects/1b13b490-38c2-0138-ed09-4a04e28a9ab8/status?branch=master)](https://app.codeship.com/projects/386508)
 [![Shippable](https://img.shields.io/shippable/5e52c634d79b7d00077bf5ed/master?label=Shippable&logo=jfrog)](https://app.shippable.com/github/HariSekhon/DevOps-Bash-tools/dashboard/jobs)
