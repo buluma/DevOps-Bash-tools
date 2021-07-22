@@ -32,10 +32,11 @@ section "GitLab CI Yaml Lint Check"
 
 start_time="$(start_timer)"
 
-while read -r yaml; do
-    printf 'Validating %s:\t' "$yaml"
-    "$srcdir/gitlab_validate_ci_yaml.sh" "$yaml"
-done <<< "$yamls"
+# not needed for now
+# while read -r yaml; do
+#     printf 'Validating %s:\t' "$yaml"
+#     "$srcdir/gitlab_validate_ci_yaml.sh" "$yaml"
+# done <<< "$yamls"
 
 time_taken "$start_time"
 section2 "GitLab CI yaml validation succeeded"
