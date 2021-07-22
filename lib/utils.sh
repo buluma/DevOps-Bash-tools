@@ -30,7 +30,8 @@ export PATH="$PATH:/usr/local/bin"
 . "$srcdir_bash_tools_utils/os.sh"
 . "$srcdir_bash_tools_utils/mac.sh"
 . "$srcdir_bash_tools_utils/perl.sh"
-. "$srcdir_bash_tools_utils/../.bash.d/colors.sh"
+# . "$srcdir_bash_tools_utils/../.bash.d/colors.sh"
+. "$srcdir_bash_tools_utils/colors.sh"
 #. "$srcdir_bash_tools_utils/python.sh"
 #. "$srcdir_bash_tools_utils/ruby.sh"
 
@@ -436,11 +437,11 @@ if is_mac; then
 fi
 
 # fails interactive import without this
-function run++ () {
+#function run++ () {
     #if [[ "$run_count" =~ ^[[:digit:]]+$ ]]; then
-        ((run_count+=1))
+ #       ((run_count+=1))
     #fi
-}
+#}
 
 run(){
     if [ -n "${ERRCODE:-}" ]; then
