@@ -59,13 +59,13 @@ pipeline {
         echo 'Building...'
         timeout(time: 10, unit: 'MINUTES') {
           retry(3) {
-//            sh 'apt update -q'
-//            sh 'apt install -qy make'
-//            sh 'make init'
-            sh """
-              setup/ci_bootstrap.sh &&
-              make init
-            """
+           sh 'apt update -q'
+           sh 'apt install -qy make'
+           sh 'make init'
+//             sh """
+//               setup/ci_bootstrap.sh &&
+//               make init
+//             """
           }
         }
         timeout(time: 180, unit: 'MINUTES') {
